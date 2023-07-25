@@ -1,5 +1,6 @@
 package main
 
+
 import "github.com/gin-gonic/gin"
 
 func main() {
@@ -12,5 +13,4 @@ func main() {
 	})
 	// 启动服务器
 	router.Run(":8080")
-
 }
